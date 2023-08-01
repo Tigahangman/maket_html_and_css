@@ -1,0 +1,888 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.m1 {
+    width: 100%;
+    height: 800px;
+    background-color: #eff0f2;
+}
+
+.head {
+    display: flex;
+    gap: 990px;
+    width: 100%;
+    height: 110px;
+    align-items: end;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 5.54px;
+    border-color: rgb(23, 15, 28);
+    border-style: solid;
+    width: 101.92px;
+    height: 34.92px;
+}
+
+.left p {
+
+    font-size: 17px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgba(21, 21, 22, 0.75);
+}
+
+.right div {
+    border-radius: 1px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    width: 30px;
+    height: 4px;
+}
+
+.right {
+
+    width: 30px;
+    height: 34.92px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.txt1 {
+    font-size: 45px;
+    font-family: "Montserrat";
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.622;
+    text-align: center;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+}
+
+.txt2 {
+    font-size: 45px;
+    font-family: "Montserrat";
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.622;
+    text-align: center;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    height: 310px;
+    justify-content: end;
+}
+
+.txt span {
+    background-color: rgb(118, 244, 234, 0.5);
+    width: 255px;
+    height: 54px;
+}
+
+.button {
+    width: 100%;
+    height: 194px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.contact_us {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 2px;
+    width: 230px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_us p {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.cup {
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img1 {
+    background-image: url(./img/Cork\ coaster.png);
+    background-position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    background-image: url(./img/Juice\ Glass.png);
+    position: absolute;
+    top: 600px;
+
+}
+
+.m2 {
+    width: 100%;
+    height: 990px;
+    background-color: #f8fafa;
+}
+
+.head2 {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_us {
+
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lorem8 {
+
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+}
+
+.mac_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 510px;
+    gap: 100px;
+}
+
+.mac1 {
+    width: 420px;
+    height: 500px;
+    background-image: url(./img/Image.png);
+    position: absolute;
+
+}
+
+.square {
+    width: 470px;
+    height: 410px;
+    background-image: url(./img/Rectangle\ 1.png);
+
+}
+
+.mac {
+    width: 480px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.text2 {
+
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.741);
+    line-height: 1.75;
+    width: 474px;
+    height: 212px;
+}
+
+.text3 {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.647;
+}
+
+.text4 {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.741);
+    line-height: 1.75;
+    width: 469px;
+    height: 72px;
+}
+
+.item {
+    width: 410px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2px;
+
+}
+
+.item div {
+    border-radius: 3px;
+    background-color: rgb(208, 208, 208);
+    width: 10px;
+    height: 10px;
+}
+
+.item div:hover {
+    background-color: rgb(113, 246, 235);
+}
+
+.m3 {
+    width: 100%;
+    height: 1100px;
+    background-color: #ffffff;
+}
+
+.head3 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.featured {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+}
+
+.img6 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+    height: 736px;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture1 {
+    background-image: url(./img/banner3.png);
+}
+
+.picture2 {
+    background-image: url(./img/5.png);
+}
+
+.picture3 {
+    background-image: url(./img/6.png);
+}
+
+.picture4 {
+    background-image: url(./img/work4.png);
+}
+
+.picture5 {
+    background-image: url(./img/9.png);
+}
+
+.picture6 {
+    background-image: url(./img/home_dietitian_sectionbg_1.png);
+}
+
+.img6 div {
+    width: 370px;
+    height: 360px;
+}
+
+.m4 {
+    width: 100%;
+    height: 1620px;
+    background-color: #f9fbfb;
+}
+
+.head4 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.our_services {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    text-align: center;
+}
+
+.imag6 {
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    gap: 16px;
+    grid-template-columns: 652px 470px;
+    grid-template-rows: repeat(3, 370px);
+    align-items: center;
+    justify-content: center;
+}
+
+.pic2 div {
+
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    width: 474px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.pic3 div {
+
+    background-color: rgb(0, 0, 0);
+    opacity: 0.651;
+    width: 652px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.pic4 div {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    width: 474px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.pic5 div {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.651;
+    width: 652px;
+    height: 370px;
+    z-index: 109;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.pic6 div {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.651;
+    width: 474px;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.pic1 {
+    background-color: aqua;
+    width: 652px;
+    height: 370px;
+}
+
+.pic2 {
+    background-image: url(./img/img-9.png);
+    width: 470px;
+    height: 370px;
+}
+
+.pic3 {
+    width: 652px;
+    height: 370px;
+    background-image: url(./img/griego3_1x.png);
+}
+
+.pic4 {
+    width: 470px;
+    height: 370px;
+    background-image: url(./img/careers-00.png);
+}
+
+.pic5 {
+    width: 652px;
+    height: 370px;
+    background-image: url(./img/griego4_1x.png);
+}
+
+.pic6 {
+    width: 470px;
+    height: 370px;
+    background-image: url(./img/blog-3.png);
+}
+
+.design {
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.831);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.45;
+    width: 440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.lorem40 {
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.749);
+    line-height: 1.75;
+    width: 470px;
+    height: 156px;
+    margin-left: 80px;
+}
+
+.cross {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    width: 87px;
+    height: 150px;
+    display: flex;
+
+    justify-content: end;
+}
+
+.p1 {
+    height: 60px;
+    width: 312px;
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(255, 255, 255, 0.949);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.45;
+}
+
+.p2 {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 1.563;
+    width: 312px;
+    height: 60px;
+}
+
+.p3 {
+    width: 312px;
+    height: 60px;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgba(249, 251, 251, 0.902);
+    text-transform: uppercase;
+    line-height: 4.722;
+    margin-bottom: 40px;
+}
+
+.pic3 .p1,
+.pic3 .p2,
+.pic3 .p3,
+.pic5 .p1,
+.pic5 .p2,
+.pic5 .p3 {
+    margin-right: 150px;
+}
+
+.m5 {
+    width: 100%;
+    height: 1300px;
+    background-color: #ffffff;
+}
+
+.head5 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small_team {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portrait div {
+    width: 380px;
+    height: 440px;
+}
+
+.portrait {
+    width: 100%;
+    height: 930px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(2, 440px);
+    align-items: center;
+    justify-content: center;
+}
+
+.port1 {
+    background-image: url(./portrait/Rectangle\ 40.png);
+}
+
+.port2 {
+    display: flex;
+    align-items: end;
+    background-image: url(./portrait/Rectangle\ 40\ copy\ 5.png);
+}
+
+.port3 {
+    background-image: url(./portrait/Rectangle\ 40\ copy\ 6.png);
+}
+
+.port4 {
+    background-image: url(./portrait/Rectangle\ 40\ copy\ 7.png);
+}
+
+.port5 {
+    background-image: url(./portrait/3.png);
+}
+
+.port6 {
+    background-image: url(./portrait/Rectangle\ 40.png);
+}
+
+.port2 div {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 250px;
+    background-image: url(./portrait/Lorem\ Ipsum\ is\ not\ simply\ is\ \ an\ action\ designer\ random\ text\ It.png);
+}
+
+.m6 {
+    width: 100%;
+    height: 930px;
+    background-color: #f9fbfb;
+}
+
+.head6 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.says {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.port_txt {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left6 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lport {
+    width: 320px;
+    height: 420px;
+    background-image: url(./portrait/team_1.png);
+    position: absolute;
+}
+
+.square1 {
+    width: 400px;
+    height: 360px;
+    background-image: url(./portrait/Rounded\ Rectangle\ 3.png);
+}
+
+.right6 {
+    width: 670px;
+    height: 368px;
+    background-image: url(./portrait/AL\ RAYHAN\ _\ UI_UX\ DESIGNER.png);
+}
+
+.hover {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+li {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(208, 208, 208);
+    list-style: none;
+}
+
+ul {
+    gap: 5px;
+    display: flex;
+    width: 550px;
+    justify-content: center;
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+.hover_right div {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.hover_right {
+    width: 580px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    gap: 25px;
+}
+
+.l,
+.r {
+    color: gray;
+}
+
+.l:hover,
+.r:hover {
+    background-color: aqua;
+    color: #25514d;
+}
+
+.m7 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.img_icon {
+    width: 1130px;
+    height: 173px;
+    background-image: url(./portrait/1\ copy\ 2.png);
+}
+
+.m8 {
+    width: 100%;
+    height: 1000px;
+    background-image: url(./portrait/Bg\ copy\ 4.png);
+}
+
+.input_adres {
+
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.input {
+    width: 615px;
+    height: 462px;
+    background-color: #4a5962;
+    opacity: 0.8;
+}
+
+.adres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 462px;
+    background-color: #4a5962;
+    opacity: 0.8;
+}
+
+input {
+    background-color: #4a5962;
+    opacity: 0.6;
+}
+
+.name,
+.subject,
+.e_mail,
+.massage {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.input1 {
+    width: 500px;
+    height: 60px;
+    border-bottom: 2px solid #c7ccd0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.input2 {
+    width: 500px;
+    height: 160px;
+    border-bottom: 2px solid #c7ccd0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+button {
+    width: 250px;
+    height: 54px;
+    background-color: aqua;
+    margin: 30px 0 0 55px;
+    color: #34716c;
+}
+
+.adres div {
+    width: 455px;
+    height: 400px;
+    background-image: url(./portrait/Adress\ line\ 1\ \ Adress\ line\ 2\ \ Phone_\ +548\ 945645\ Fax_\ +456456\ 5.png);
+}
+
+
+
+.m9 {
+    width: 100%;
+    height: 320px;
+    background-color: #262b2e;
+}
+
+.head9 {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.icon_end {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon_end div {
+    width: 55px;
+    height: 50px;
+    background-color: #424648;
+    color: #bbb8b9;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_end div:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.end {
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
